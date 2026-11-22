@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ИИ в жизни школьника </title>
+    <style>
+        /* --- Стили (CSS) --- */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        header h1 { margin: 0; font-size: 2.5em; }
+        header p { font-size: 1.2em; opacity: 0.9; }
+        nav {
+            background-color: #fff;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav a {
+            color: #1e3c72;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover { color: #ff5722; }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        h2 { color: #1e3c72; border-bottom: 2px solid #ff5722; padding-bottom: 10px; }
+        .card {
+            background: #f9f9f9;
+            border-left: 5px solid #2a5298;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .rules-list { list-style-type: none; padding: 0; }
+        .rules-list li {
+            background: #eef2f5;
+            margin-bottom: 10px;
+            padding: 15px;
+            border-radius: 8px;
+            font-weight: 500;
+        }
+        .rules-list li span { color: #ff5722; font-weight: bold; }
+        .image-placeholder {
+            width: 100%;
+            height: 300px;
+            background: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e3c72;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Шапка сайта -->
+    <header>
+        <h1>🧠 Искусственный интеллект</h1>
+        <p>Как нейросети меняют жизнь школьника</p>
+        <p style="font-size: 0.9em;">Проект ученика 10 «А» класса Никиты</p>
+    </header>
+
+    <!-- Меню навигации -->
+    <nav>
+        <a href="#about">О проекте</a>
+        <a href="#how">Как работает</a>
+        <a href="#rules">Правила</a>
+        <a href="#video">Видео</a>
+    </nav>
+
+    <!-- Основной контент -->
+    <div class="container" id="about">
+        <h2>📌 О проекте</h2>
+        <p>Привет! Меня зовут <strong>Никита</strong>. Этот сайт — продукт моего индивидуального проекта по информатике. Здесь я рассказываю, как искусственный интеллект (ИИ) и нейросети уже сегодня помогают нам учиться, творить и решать сложные задачи.</p>
+        <div class="card">
+            <strong>Цель проекта:</strong> показать, что ИИ — это не замена человека, а мощный инструмент, которым нужно уметь пользоваться.
+        </div>
+    </div>
+
+    <div class="container" id="how">
+        <h2>⚙️ Как работает нейросеть?</h2>
+        <p>Нейросети не программируют по жестким правилам. Их <strong>обучают на примерах</strong>, как ребенка.</p>
+        <div class="card">
+            <p>Пример: чтобы нейросеть отличала кошку от собаки, ей показывают миллион картинок с подписями. Со временем она сама находит закономерности (у кошки — острые уши, у собаки — вытянутая морда) и начинает узнавать новых животных на новых фото.</p>
+        <div style="text-align: center; margin: 20px 0;">
+    <img src="shedevrum.png" alt="Картинка из Шедеврума" style="width: 100%; max-width: 500px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+    <p style="font-size: 14px; color: #666; margin-top: 10px; font-style: italic;">Рисунок 2 – Изображение, сгенерированное нейросетью Шедеврум</p>
+	</div>
+    <div class="container" id="rules">
+        <h2>🛡️ ТОП-5 правил общения с ИИ</h2>
+        <p>Чтобы нейросеть приносила пользу, а не вред, я создал эту памятку:</p>
+        <ul class="rules-list">
+            <li><span>1.</span> Будь конкретен. Чем точнее запрос, тем лучше ответ.</li>
+            <li><span>2.</span> Дай нейросети роль (например, «Ты — учитель истории»).</li>
+            <li><span>3.</span> Проверяй факты. ИИ может ошибаться и выдавать ложь.</li>
+            <li><span>4.</span> Не делись личными данными (адрес, пароли).</li>
+            <li><span>5.</span> ИИ — для идей, а не для списывания. Думай своей головой!</li>
+        </ul>
+    </div>
+
+    <div class="container" id="video">
+        <h2>🎬 Видеоролик «Польза в повседневной жизни с помощью ИИ»</h2>
+        <p>В рамках проекта я записал короткое видео о том, как использую нейросети в течение дня.</p>
+        <!-- Сюда можно вставить видео с YouTube или ВК, если загрузишь -->
+        <div class="card" style="text-align: center;">
+    		<video width="100%" style="max-width: 700px; border-radius: 10px;" controls>
+        		<source src="video.mp4" type="video/mp4">
+        Ваш браузер не поддерживает видео.
+   		 </video>
+	</div>
+           
+    <!-- Подвал -->
+    <footer>
+        <p>© 2026. Проект Никиты, ученика 10 «А» класса МБОУ Школа № 36, г. Самара.</p>
+        <p>Руководитель: Смоленцева В.Н. .</p>
+    </footer>
+
+</body>
+</html>
